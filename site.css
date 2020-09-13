@@ -1,20 +1,36 @@
+body {
+  background: #d2d5d5;
+  color: #f8f8f8;
+  font: 500 20px/26px "Helvetica Neue", Helvetica, Arial, Sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
 .mapContainer {
   position: absolute;
   top: 0;
   right: 0;
-  left: 0;
+  left: 33%;
   bottom: 0;
 }
 
-.sidebarStyle {
+.sidebar {
   display: inline-block;
   position: absolute;
   top: 0;
   left: 0;
-  margin: 12px;
+  bottom: 0;
+  right: 66%;
+  /* margin: 12px; */
   background-color: #404040;
   color: #ffffff;
   z-index: 1 !important;
-  padding: 6px;
+  padding: 12px;
   font-weight: bold;
+}
+
+.title {
+  font-size: x-large;
+  text-align: center;
 }
